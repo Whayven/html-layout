@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+}
+
+#header {
+    background: lightgray;
+    height: 100px;
+    padding: 10px;
+}
+
+#header-brand {
+    background: blue;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+#text-row {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#blue-row {
+    height: 100px;
+    background: blue;
+}
+
+#cyan-row {
+    height: 100px;
+    background: cyan;
+}
+
+#green-row {
+    height: 100px;
+    background: green;
+}
+
+#yellow-row {
+    height: 100px;
+    background: yellow;
+}
