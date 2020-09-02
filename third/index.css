@@ -1,41 +1,55 @@
-html, body {
-    margin: 0;
+html,
+body {
+  margin: 0;
 }
 
 #header {
-    background: lightgray;
-    height: 100px;
-    padding: 10px;
+  background: #d8d8d8;
+  height: 15vh;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 #header-brand {
-    background: blue;
-    height: 100px;
-    width: 100px;
-    margin-left: 20px;
+  background: #4a90e2;
+  height: 90px;
+  width: 90px;
+  margin-left: 20px;
 }
 
 #text-row {
-    padding: 10px;
-    font-size: 20px;
+  padding: 10px;
+  font-size: 120%;
+  height: 25vh;
+  width: 70vw;
+  margin: auto;
+  line-height: 25vh;
+}
+
+.row {
+  height: 15vh;
+  box-sizing: border-box;
+}
+
+.row-text {
+  margin: auto;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #blue-row {
-    height: 100px;
-    background: blue;
+  background: #4a90e2;
 }
 
 #cyan-row {
-    height: 100px;
-    background: cyan;
+  background: #50e3c2;
 }
 
 #green-row {
-    height: 100px;
-    background: green;
+  background: #b8e986;
 }
 
 #yellow-row {
-    height: 100px;
-    background: yellow;
+  background: #f8e71c;
 }
